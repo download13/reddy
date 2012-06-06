@@ -1,5 +1,3 @@
-addEventListener('DOMContentLoaded', 'load')
-
 (function(context) {
 	var done = false;
 	
@@ -11,8 +9,7 @@ addEventListener('DOMContentLoaded', 'load')
 	function check(cb) {
 		if(document.readyState[0] != 'l') {
 			done || cb();
-			done = true;
-			return true;
+			return done = true;
 		}
 		return false;
 	}
