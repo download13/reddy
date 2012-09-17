@@ -2,6 +2,6 @@
   "author": "download13",
   "name": "reddy",
   "description": "A ready function for Ender",
-  "version": "0.1.0",
-  "main": "./reddy.js"
+  "version": "0.2.0",
+  "main": "reddy"
 }
